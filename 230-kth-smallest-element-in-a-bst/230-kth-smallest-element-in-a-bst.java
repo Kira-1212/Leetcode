@@ -14,19 +14,21 @@
  * }
  */
 class Solution {
-    List<Integer> li;
+    int li;
+    int count;
     public int kthSmallest(TreeNode root, int k) {
-        li = new ArrayList<>();
+        count = k;
         dfs(root);
-        for(int i = 0; i<li.size(); i++)
-            if( i+1 ==k)
-                return li.get(i);
-        return 0;
+        
+        return li;
     }
     private  void dfs(TreeNode root){
         if (root == null)return;
         dfs(root.left);
-        li.add(root.val);
+            count--;
+        if(count==0){
+            li = root.val;
+        }
         dfs(root.right);
     }
 }

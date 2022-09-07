@@ -21,27 +21,48 @@ class Node {
 };
 */
 
+// class Solution {
+//     public Node connect(Node root) {
+//         if(root == null) return null;
+//         Queue<Node> q = new LinkedList<>();
+//         q.add(root);
+//         while(!q.isEmpty()){
+//             int size = q.size();
+//             Node curr = q.poll();
+//             if(curr.left != null){
+//                 q.add(curr.left);
+//                 q.add(curr.right);
+//             }
+//             for(int i = 1; i<size; i++){
+//                 Node temp = q.poll();
+//                 curr.next = temp;
+//                 if(temp.left != null){
+//                     q.add(temp.left);
+//                     q.add(temp.right);
+//                 }
+//                 curr = temp;
+//             }
+//         }
+//         return root;
+//     }
+// }
+
+
 class Solution {
     public Node connect(Node root) {
         if(root == null) return null;
-        Queue<Node> q = new LinkedList<>();
-        q.add(root);
-        while(!q.isEmpty()){
-            int size = q.size();
-            Node curr = q.poll();
-            if(curr.left != null){
-                q.add(curr.left);
-                q.add(curr.right);
-            }
-            for(int i = 1; i<size; i++){
-                Node temp = q.poll();
-                curr.next = temp;
-                if(temp.left != null){
-                    q.add(temp.left);
-                    q.add(temp.right);
+        Node level = root;
+        Node curr = root;
+        while(level.left != null){
+            while(curr != null){
+                curr.left.next = curr.right;
+                if(curr.next != null){
+                    curr.right.next = curr.next.left;
                 }
-                curr = temp;
+                curr=curr.next;
             }
+            level = level.left;
+            curr = level;
         }
         return root;
     }

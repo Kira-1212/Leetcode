@@ -28,6 +28,7 @@ class Solution {
             count--;
         if(count==0){
             li = root.val;
+            return;
         }
         dfs(root.right);
     }

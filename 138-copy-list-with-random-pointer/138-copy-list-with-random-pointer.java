@@ -15,17 +15,46 @@ class Node {
 
 class Solution {
     HashMap<Node,Node> map;
+    // public Node copyRandomList(Node head) {
+    //     if(head == null )return null;
+    //     map = new HashMap<>();
+    //     Node copyHead = clone(head);
+    //     Node curr = head;
+    //     Node copyCurr = copyHead;
+    //     while(curr!=null){
+    //         copyCurr.next = clone(curr.next);
+    //         copyCurr.random = clone(curr.random);
+    //         curr =curr.next;
+    //         copyCurr = copyCurr.next;
+    //     }
+    //     return copyHead;
+    // }
     public Node copyRandomList(Node head) {
         if(head == null )return null;
-        map = new HashMap<>();
-        Node copyHead = clone(head);
         Node curr = head;
-        Node copyCurr = copyHead;
         while(curr!=null){
-            copyCurr.next = clone(curr.next);
-            copyCurr.random = clone(curr.random);
-            curr =curr.next;
-            copyCurr = copyCurr.next;
+            Node copyNode = new Node(curr.val);
+            copyNode.next = curr.next;
+            curr.next = copyNode;
+            curr= curr.next.next;
+        }
+        curr = head;
+        while(curr!=null){
+            if(curr.random != null){
+                curr.next.random = curr.random.next;
+            }
+            curr= curr.next.next;
+        }
+        curr = head;
+        Node copyHead = curr.next;
+        Node copyCurr = copyHead;
+        while(curr != null){
+            curr.next = curr.next.next;
+            if(copyCurr.next == null) break;
+            copyCurr.next = copyCurr.next.next;
+            curr= curr.next;
+            copyCurr=copyCurr.next;
+            
         }
         return copyHead;
     }

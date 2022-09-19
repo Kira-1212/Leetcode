@@ -25,7 +25,10 @@ class Solution {
         if(root == null)return;
         if(root.val>= low && root.val<=high)
             result+=root.val;
-        dfs(root.left, low, high);
-        dfs(root.right, low, high);
+        if(root.val>=low)
+            dfs(root.left, low, high);
+        if(root.val<=high)
+            dfs(root.right, low, high);
+        
     }
 }

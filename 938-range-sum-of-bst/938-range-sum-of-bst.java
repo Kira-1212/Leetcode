@@ -23,12 +23,13 @@ class Solution {
     }
     private void dfs(TreeNode root, int low, int high){
         if(root == null)return;
-        if(root.val>= low && root.val<=high)
-            result+=root.val;
         if(root.val>=low)
             dfs(root.left, low, high);
         if(root.val<=high)
             dfs(root.right, low, high);
+        if(root.val>= low && root.val<=high)
+            result+=root.val;
+        
         
     }
 }

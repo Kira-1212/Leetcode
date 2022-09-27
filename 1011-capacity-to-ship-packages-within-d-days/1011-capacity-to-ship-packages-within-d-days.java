@@ -16,6 +16,9 @@ class Solution {
                     currWt += weights[i];
                 else{
                     d++;
+                    if(d>days){
+                        break;
+                    }
                     currWt = weights[i];
                 }
             }

@@ -8,6 +8,8 @@ class Solution {
                 boolean right = (i == flowerbed.length-1)|| (flowerbed[i+1] == 0);
                 if(left && right){
                     count++;
+                    if(count>=n)
+                        return true;
                     flowerbed[i] = 1;
                 }
             }

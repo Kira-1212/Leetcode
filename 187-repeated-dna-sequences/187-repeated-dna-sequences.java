@@ -1,28 +1,18 @@
-// Approach
-
-// We take two hashsets one for result and the other for comparison
-// we repeatedly create sub strings of length 10 and add them to the set
-// if we already have the substring in the set we add it to the result subset
-
-
-
-
-
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
-        if(s == null || s.length() == 0) return new ArrayList<>();
-        
         HashSet<String> set = new HashSet<>();
-        HashSet<String> result = new HashSet<>();
-        for(int i =0; i<=s.length() - 10; i++){
-            String sub = s.substring(i, i+10);
-            if(set.contains(sub)){
-                result.add(sub);
-                
-            }
-            else
-                set.add(sub);
+        HashSet<String> hset = new HashSet<>();
+        for(int i = 0 ; i<=s.length()-10; i++){
+            String temp = s.substring(i, i+10);
+            if(set.contains(temp))
+                hset.add(temp);
+            set.add(temp);
+            
         }
-        return new ArrayList<>(result);
+        List<String> result = new ArrayList<>();
+        for(String r : hset){
+            result.add(r);
+        }
+        return result;
     }
 }

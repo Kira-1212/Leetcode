@@ -13,26 +13,44 @@
  *     }
  * }
  */
+// class Solution {
+//     boolean valid = true;
+//     Integer prev;
+//     public boolean isValidBST(TreeNode root) {
+//         if(root == null)return true;
+//         prev = null;
+//         return dfs(root);
+
+//     }
+    
+//     private boolean dfs(TreeNode root){
+//         if(root == null)return true;
+        
+//         if(!dfs(root.left))
+//             return false;
+//         if(prev != null &&  root.val<=prev ){
+//             return false;
+//         }
+//         prev = root.val;
+
+//         return dfs(root.right);
+//     }
+// }
+
 class Solution {
-    boolean valid = true;
-    Integer prev;
+
     public boolean isValidBST(TreeNode root) {
         if(root == null)return true;
-        prev = null;
-        return dfs(root);
+
+        return dfs(root, null, null);
 
     }
     
-    private boolean dfs(TreeNode root){
+    private boolean dfs(TreeNode root, Integer low, Integer high){
         if(root == null)return true;
-        
-        if(!dfs(root.left))
-            return false;
-        if(prev != null &&  root.val<=prev ){
+        if((low != null && root.val<= low) ||(high != null && root.val>= high)){
             return false;
         }
-        prev = root.val;
-
-        return dfs(root.right);
+        return dfs(root.right, root.val, high) && dfs(root.left, low, root.val);
     }
 }

@@ -1,32 +1,34 @@
 class Solution {
     public String decodeString(String s) {
-        Stack<StringBuilder> strS = new Stack<>();
-        Stack<Integer> numS = new Stack<>();
-        int num = 0;
-        StringBuilder sb = new StringBuilder();
+        if(s == null || s.length() == 0) return "";
         
-        for(int i = 0; i<s.length(); i++){
+        Stack<Integer> sint = new Stack<>();
+        Stack<StringBuilder> sstr = new Stack<>();
+        int curr = 0;
+        StringBuilder currStr = new StringBuilder();
+        for(int i = 0; i<s.length() ; i++){
             char c = s.charAt(i);
             if(Character.isDigit(c)){
-                num = num *10 + c-'0';
+                curr = curr * 10 + c-'0';
             }
-            else if(c =='['){
-                numS.push(num);
-                strS.push(sb);
-                num = 0;
-                sb = new StringBuilder();
+            else if(Character.isAlphabetic(c)){
+                currStr.append(c);
             }
-            else if(c == ']'){
-                int times = numS.pop();
-                StringBuilder newsb = new StringBuilder();
-                for(int j = 0; j<times; j++)
-                    newsb.append(sb);
-                sb = strS.pop().append(newsb);
+            else if(c== '['){
+                sint.push(curr);
+                sstr.push(currStr);
+                currStr = new StringBuilder();
+                curr =0;
             }
             else{
-                sb.append(c);
+                int times = sint.pop();
+                StringBuilder newstr = new StringBuilder();
+                for(int j =0; j<times; j++){
+                    newstr.append(currStr);
+                }
+                currStr = sstr.pop().append(newstr);
             }
         }
-        return sb.toString();
+        return currStr.toString();
     }
 }

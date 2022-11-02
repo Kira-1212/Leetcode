@@ -11,10 +11,9 @@ class Solution {
         for(int i = n-1; i>=0; i--){
             if(cars[i][1]>curr){
                 count++;
-                curr= cars[i][1];
+                curr = cars[i][1];
             }
         }
         return count;
-        
     }
 }

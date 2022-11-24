@@ -72,8 +72,6 @@ class Solution {
     this._board[row][col] = letter;
 
     // Optimization: incrementally remove the leaf nodes
-    if (currNode.children.isEmpty()) {
-      parent.children.remove(letter);
-    }
+
   }
 }

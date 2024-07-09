@@ -20,4 +20,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0088-merge-sorted-array) |
+## Hash Table
+|  |
+| ------- |
+| [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
+## Tree
+|  |
+| ------- |
+| [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
+## Depth-First Search
+|  |
+| ------- |
+| [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
+## Binary Tree
+|  |
+| ------- |
+| [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
 <!---LeetCode Topics End-->

@@ -1,70 +1,65 @@
 class MyHashMap {
+
     class Node{
         int key;
-        int value;
+        int val;
         Node next;
-
-        Node(int key, int value){
+        Node(int key, int val){
             this.key = key;
-            this.value = value;
+            this.val = val;
         }
     }
-    Node[] nodes;
     int buckets;
+    Node[] map;
     public MyHashMap() {
-        buckets = 10000;
-        nodes = new Node[buckets];
-        
+         buckets = 10000;
+        map = new Node[buckets];    
     }
-
+    
     public int getHash(int key){
-        return Integer.hashCode(key) % buckets;
+        return (key % buckets);
     }
-
     public Node find(Node node, int key){
+
         Node prev = node;
         Node curr = prev.next;
         while(curr != null && curr.key != key){
-            prev = curr;
             curr = curr.next;
+            prev = prev.next;
         }
         return prev;
     }
-
-
-    
     public void put(int key, int value) {
         int hash = getHash(key);
-        if(nodes[hash] == null){
-            nodes[hash] = new Node(-1,-1);
-        } 
-        Node prev = find(nodes[hash], key);
+        if(map[hash] == null)
+            map[hash] = new Node(-1, -1);
+        Node prev = find(map[hash], key);
         if(prev.next == null)
             prev.next = new Node(key, value);
         else
-            prev.next.value = value;
+            prev.next.val =  value;
     }
     
     public int get(int key) {
-        int id = getHash(key);
-        if(nodes[id]  == null)
+        int hash = getHash(key);
+        if(map[hash] == null)
             return -1;
-        Node prev = find(nodes[id], key);
-        if(prev.next == null)
+        Node prev = find(map[hash], key);
+        if(prev.next == null )
             return -1;
         else
-            return prev.next.value;
+            return prev.next.val;
     }
     
     public void remove(int key) {
-        int id = getHash(key);
-        if(nodes[id] == null)
-            return;
-        Node prev = find(nodes[id], key);
-        if(prev.next == null)
-            return;
-        else
-            prev.next = prev.next.next;
+        int hashKey = getHash(key);
+        if(map[hashKey] != null){
+            Node prev = find(map[hashKey], key);
+            if(prev.next != null)
+                prev.next = prev.next.next;
+            else
+                return;
+        }
     }
 }
 

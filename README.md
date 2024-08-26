@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0151-reverse-words-in-a-string](https://github.com/Kira-1212/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
 ## Sorting
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Kira-1212/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0227-basic-calculator-ii](https://github.com/Kira-1212/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
 ## Stack

@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Kira-1212/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Kira-1212/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -102,4 +103,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
+## Matrix
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Kira-1212/Leetcode/tree/master/0054-spiral-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Kira-1212/Leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->

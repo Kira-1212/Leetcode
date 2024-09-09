@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/Kira-1212/Leetcode/tree/master/0118-pascals-triangle) |
 | [0217-contains-duplicate](https://github.com/Kira-1212/Leetcode/tree/master/0217-contains-duplicate) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Kira-1212/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
 ## Data Stream
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/Kira-1212/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0227-basic-calculator-ii](https://github.com/Kira-1212/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/Kira-1212/Leetcode/tree/master/0242-valid-anagram) |
+| [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
 ## Stack
 |  |

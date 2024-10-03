@@ -68,11 +68,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Kira-1212/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kira-1212/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Kira-1212/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kira-1212/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
 ## Breadth-First Search
@@ -83,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Kira-1212/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kira-1212/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
 ## Greedy

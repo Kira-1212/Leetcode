@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/Kira-1212/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0408-valid-word-abbreviation](https://github.com/Kira-1212/Leetcode/tree/master/0408-valid-word-abbreviation) |
 ## Sorting
 |  |
 | ------- |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0227-basic-calculator-ii](https://github.com/Kira-1212/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/Kira-1212/Leetcode/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0408-valid-word-abbreviation](https://github.com/Kira-1212/Leetcode/tree/master/0408-valid-word-abbreviation) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Kira-1212/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Stack

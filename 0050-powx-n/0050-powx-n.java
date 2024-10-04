@@ -1,17 +1,22 @@
 class Solution {
     public double myPow(double x, int n) {
-        if(n == 0)
+        long exp = (long)n;
+        if(n==0)
             return 1;
-        double result = myPow(x, n/2);
-        if(n%2 == 0){
-            return result * result;
+        if(n<0){
+            exp = -1 * exp;
+            x = 1.0/x;
         }
-        else{
-            if(n>0){
-                return result * result * x;
+        double result = 1;
+        while(exp!=0){
+            if(exp%2 ==1){
+                result = result *x;
+                exp--;
             }
-            else
-                return result * result * 1/x;
+            x = x*x;
+            exp = exp /2;
+
         }
+        return result;
     }
 }

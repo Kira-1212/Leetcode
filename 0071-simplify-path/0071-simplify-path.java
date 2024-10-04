@@ -1,34 +1,24 @@
 class Solution {
     public String simplifyPath(String path) {
+        String[] directories = path.split("/");
 
-        // Initialize a stack
-        Stack<String> stack = new Stack<String>();
-        String[] components = path.split("/");
-
-
-        for (String directory : components) {
-
-            if (directory.equals(".") || directory.isEmpty()) {
+        Stack<String> s = new Stack<>();
+        for(String directory : directories){
+            if(directory.isEmpty()||directory.equals("."))
                 continue;
-            } else if (directory.equals("..")) {
-
-                if (!stack.isEmpty()) {
-                    stack.pop();
-                }
-            } else {
-
-
-                stack.add(directory);
+            else if(directory.equals("..")){
+                if(!s.isEmpty())
+                    s.pop();
             }
+            else
+                s.add(directory);
+        }
+        StringBuilder sb = new StringBuilder();
+        for(String st : s){
+            sb.append("/");
+            sb.append(st);
         }
 
-        // Stich together all the directory names together
-        StringBuilder result = new StringBuilder();
-        for (String dir : stack) {
-            result.append("/");
-            result.append(dir);
-        }
-
-        return result.length() > 0 ? result.toString() : "/" ;
+        return sb.length()>0 ? sb.toString() : "/";
     }
 }

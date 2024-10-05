@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-random-pick-with-weight](https://github.com/Kira-1212/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/Kira-1212/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1909-buildings-with-an-ocean-view](https://github.com/Kira-1212/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2012-process-tasks-using-servers](https://github.com/Kira-1212/Leetcode/tree/master/2012-process-tasks-using-servers) |
 ## Heap (Priority Queue)
 |  |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/Kira-1212/Leetcode/tree/master/0071-simplify-path) |
 | [0227-basic-calculator-ii](https://github.com/Kira-1212/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Kira-1212/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1909-buildings-with-an-ocean-view](https://github.com/Kira-1212/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Linked List
 |  |
 | ------- |
@@ -208,4 +210,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Kira-1212/Leetcode/tree/master/0050-powx-n) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1909-buildings-with-an-ocean-view](https://github.com/Kira-1212/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 <!---LeetCode Topics End-->

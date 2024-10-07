@@ -1,30 +1,35 @@
 class Solution {
-    Set<List<Integer>> result = new HashSet<>();
+    List<List<Integer>> res ;
     public List<List<Integer>> threeSum(int[] nums) {
+        res = new ArrayList<>();
+
+        if(nums == null || nums.length == 0)
+            return res;
         Arrays.sort(nums);
-        
+
         for(int i = 0; i<nums.length; i++){
-            twoSum(nums, i);
+            if(i == 0 || nums[i-1] != nums[i])
+                twosum(nums, i);
         }
-        return new ArrayList(result);
+        return res;
     }
-    
-    private void twoSum(int[] nums, int i){
-        List<Integer> res = new ArrayList<>();
-       
-        int target = -nums[i];
-        HashMap<Integer,Integer> map= new HashMap<>();
-        for(int j = i+1; j<nums.length; j++){
-            int comp = target - nums[j];
-            if(map.containsKey(comp) && map.get(comp) == i){
-                List<Integer> triplet = Arrays.asList(nums[i], nums[j], comp);
-                Collections.sort(triplet);
-                result.add(triplet);
-            }
+
+    private void twosum(int[] nums, int i){
+        int l = i+1, r = nums.length -1;
+        while(l<r){
+            int sum = nums[i] + nums[l] + nums[r];
+
+            if(sum<0)
+                l++;
+            else if(sum> 0)
+                r--;
             else{
-                map.put(nums[j], i);
+                res.add(Arrays.asList(nums[i], nums[l], nums[r]));
+                r--;
+                l++;
+                while(l<r && nums[l-1] == nums[l])
+                    l++;
             }
         }
-        
     }
 }

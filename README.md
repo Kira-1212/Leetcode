@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/Kira-1212/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Kira-1212/Leetcode/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/Kira-1212/Leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/Kira-1212/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kira-1212/Leetcode/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kira-1212/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Kira-1212/Leetcode/tree/master/0146-lru-cache) |
 | [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
@@ -179,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/Kira-1212/Leetcode/tree/master/0146-lru-cache) |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
 ## Hash Function
 |  |
@@ -229,4 +232,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1909-buildings-with-an-ocean-view](https://github.com/Kira-1212/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Kira-1212/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->

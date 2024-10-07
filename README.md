@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0670-maximum-swap](https://github.com/Kira-1212/Leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/Kira-1212/Leetcode/tree/master/0680-valid-palindrome-ii) |
 ## Prefix Sum
 |  |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0050-powx-n](https://github.com/Kira-1212/Leetcode/tree/master/0050-powx-n) |
 | [0227-basic-calculator-ii](https://github.com/Kira-1212/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0670-maximum-swap](https://github.com/Kira-1212/Leetcode/tree/master/0670-maximum-swap) |
 | [0900-reordered-power-of-2](https://github.com/Kira-1212/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0912-random-pick-with-weight](https://github.com/Kira-1212/Leetcode/tree/master/0912-random-pick-with-weight) |
 ## Counting

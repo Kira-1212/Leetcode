@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Kira-1212/Leetcode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/Kira-1212/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0036-valid-sudoku](https://github.com/Kira-1212/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Kira-1212/Leetcode/tree/master/0049-group-anagrams) |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Kira-1212/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/Kira-1212/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -52,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Kira-1212/Leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Kira-1212/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Kira-1212/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/Kira-1212/Leetcode/tree/master/0088-merge-sorted-array) |

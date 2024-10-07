@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
 | [0912-random-pick-with-weight](https://github.com/Kira-1212/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Kira-1212/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/Kira-1212/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/Kira-1212/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2012-process-tasks-using-servers](https://github.com/Kira-1212/Leetcode/tree/master/2012-process-tasks-using-servers) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kira-1212/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/Kira-1212/Leetcode/tree/master/0339-nested-list-weight-sum) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Kira-1212/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1624-clone-binary-tree-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/1624-clone-binary-tree-with-random-pointer) |
 ## Binary Tree
 |  |
@@ -178,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/Kira-1212/Leetcode/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/Kira-1212/Leetcode/tree/master/0054-spiral-matrix) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Kira-1212/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Simulation
 |  |
 | ------- |

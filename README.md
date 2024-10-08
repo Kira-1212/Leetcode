@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/Kira-1212/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0346-moving-average-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Kira-1212/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/Kira-1212/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
@@ -156,12 +157,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Kira-1212/Leetcode/tree/master/0146-lru-cache) |
 | [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0346-moving-average-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0817-design-hashmap](https://github.com/Kira-1212/Leetcode/tree/master/0817-design-hashmap) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/Kira-1212/Leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0346-moving-average-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 ## String
 |  |
 | ------- |
@@ -247,4 +250,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Kira-1212/Leetcode/tree/master/0200-number-of-islands) |
+## Queue
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 <!---LeetCode Topics End-->

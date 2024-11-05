@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Kira-1212/Leetcode/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/Kira-1212/Leetcode/tree/master/0012-integer-to-roman) |
 | [0036-valid-sudoku](https://github.com/Kira-1212/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Kira-1212/Leetcode/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/Kira-1212/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Kira-1212/Leetcode/tree/master/0012-integer-to-roman) |
 | [0050-powx-n](https://github.com/Kira-1212/Leetcode/tree/master/0050-powx-n) |
 | [0227-basic-calculator-ii](https://github.com/Kira-1212/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0670-maximum-swap](https://github.com/Kira-1212/Leetcode/tree/master/0670-maximum-swap) |
@@ -176,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Kira-1212/Leetcode/tree/master/0012-integer-to-roman) |
 | [0049-group-anagrams](https://github.com/Kira-1212/Leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Kira-1212/Leetcode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/Kira-1212/Leetcode/tree/master/0125-valid-palindrome) |

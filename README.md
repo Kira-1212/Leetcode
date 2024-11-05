@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kira-1212/Leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Kira-1212/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0900-reordered-power-of-2](https://github.com/Kira-1212/Leetcode/tree/master/0900-reordered-power-of-2) |
+| [3425-maximum-number-of-potholes-that-can-be-fixed](https://github.com/Kira-1212/Leetcode/tree/master/3425-maximum-number-of-potholes-that-can-be-fixed) |
 ## Hash Table
 |  |
 | ------- |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0670-maximum-swap](https://github.com/Kira-1212/Leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/Kira-1212/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [3425-maximum-number-of-potholes-that-can-be-fixed](https://github.com/Kira-1212/Leetcode/tree/master/3425-maximum-number-of-potholes-that-can-be-fixed) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -190,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0680-valid-palindrome-ii](https://github.com/Kira-1212/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1044-find-common-characters](https://github.com/Kira-1212/Leetcode/tree/master/1044-find-common-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Kira-1212/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [3425-maximum-number-of-potholes-that-can-be-fixed](https://github.com/Kira-1212/Leetcode/tree/master/3425-maximum-number-of-potholes-that-can-be-fixed) |
 ## Stack
 |  |
 | ------- |

@@ -1,30 +1,48 @@
 class Solution {
     public String largestPalindromic(String num) {
-         // Step 1: Count digit frequencies
-       int[] cnt = new int[10];
-        for (char c : num.toCharArray()) {
-            ++cnt[c - '0'];
+        // Step 1: Count digit frequencies
+        Map<Character, Integer> freq = new HashMap<>();
+        for (char digit : num.toCharArray()) {
+            freq.put(digit, freq.getOrDefault(digit, 0) + 1);
         }
-        String mid = "";
-        for (int i = 9; i >= 0; --i) {
-            if (cnt[i] % 2 == 1) {
-                mid += i;
-                --cnt[i];
+
+        // Step 2: Form the left half of the palindrome, avoiding leading zeros
+        StringBuilder leftHalf = new StringBuilder();
+        for (char digit = '9'; digit >= '0'; digit--) {
+            if (freq.containsKey(digit) && freq.get(digit) > 1) {
+                // Only add zeros if leftHalf is not empty to avoid leading zeros
+                if (digit == '0' && leftHalf.length() == 0) {
+                    continue;
+                }
+                int pairs = freq.get(digit) / 2;
+                for (int i = 0; i < pairs; i++) {
+                    leftHalf.append(digit);
+                }
+                // Reduce count by the number of pairs used
+                freq.put(digit, freq.get(digit) % 2);
+            }
+        }
+
+        // Step 3: Choose the middle digit
+        String middle = "";
+        for (char digit = '9'; digit >= '0'; digit--) {
+            if (freq.containsKey(digit) && freq.get(digit) > 0) {
+                middle = Character.toString(digit);
                 break;
             }
         }
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 10; ++i) {
-            if (cnt[i] > 0) {
-                cnt[i] >>= 1;
-                sb.append(("" + i).repeat(cnt[i]));
-            }
+
+        // Step 4: Build the full palindrome
+        String leftHalfStr = leftHalf.toString();
+
+        // Edge case: If everything is zero, return "0"
+        if (leftHalfStr.isEmpty() && middle.isEmpty()) {
+            return "0";
         }
-        while (sb.length() > 0 && sb.charAt(sb.length() - 1) == '0') {
-            sb.deleteCharAt(sb.length() - 1);
-        }
-        String t = sb.toString();
-        String ans = sb.reverse().toString() + mid + t;
-        return "".equals(ans) ? "0" : ans;
+
+        // Combine leftHalf + middle + reversed(leftHalf) to form the palindrome
+        String result = leftHalfStr + middle + leftHalf.reverse().toString();
+        
+        return result;
     }
 }

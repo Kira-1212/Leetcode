@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/Kira-1212/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0271-encode-and-decode-strings](https://github.com/Kira-1212/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0287-find-the-duplicate-number](https://github.com/Kira-1212/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0346-moving-average-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Kira-1212/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/Kira-1212/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/Kira-1212/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Kira-1212/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0253-meeting-rooms-ii](https://github.com/Kira-1212/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0287-find-the-duplicate-number](https://github.com/Kira-1212/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0408-valid-word-abbreviation](https://github.com/Kira-1212/Leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/Kira-1212/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/Kira-1212/Leetcode/tree/master/0162-find-peak-element) |
+| [0287-find-the-duplicate-number](https://github.com/Kira-1212/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0912-random-pick-with-weight](https://github.com/Kira-1212/Leetcode/tree/master/0912-random-pick-with-weight) |
 ## Randomized
 |  |
@@ -283,4 +286,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/Kira-1212/Leetcode/tree/master/0346-moving-average-from-data-stream) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Kira-1212/Leetcode/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
